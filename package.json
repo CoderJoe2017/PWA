@@ -1,0 +1,16 @@
+{
+  "name": "alternative-news-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "http-server -c-1 -p 8081"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "workbox-sw": "^2.1.3",
+    "http-server": "^0.10.0"
+  }
+}

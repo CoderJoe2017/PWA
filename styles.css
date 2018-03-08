@@ -1,0 +1,49 @@
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 200;
+  margin: 9px;
+  background-color: #d9d9d9;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #4080bf;
+  font-family: 'Times New Roman';
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+main {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: max-content;
+  grid-auto-flow: row dense;
+}
+
+.article h2 {
+  font-family: 'Times New Roman', serif;
+}
+
+.article a,
+.article a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.article img {
+  width: 100%;
+}
+footer{
+    font-family: inherit;
+    text-align: center;    
+}
+p{
+    color: #004080;
+}
